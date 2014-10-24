@@ -1,0 +1,20 @@
+<div class="jumbotron fpgreen">
+  <h2>Welcome to FP17!</h2>
+  <p class="lead">
+  </p>
+</div>
+
+
+<div class="home-actions col-md-12">
+
+  <div class="col-md-6">
+    <a href="" class="btn btn-success btn-lg">Start a new form!</a>
+  </div>
+
+  <div class="col-md-6">
+    <a href="" class="btn btn-secondary btn-lg">Complete a form from earlier</a>
+  </div>
+</div>
+
+
+
