@@ -10,6 +10,7 @@
     <title>FP17</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/fp17.css">
+
   </head>
 
   <body>
@@ -59,5 +60,8 @@
       </div>
 
     </div> <!-- /container -->
+
+      <script type="text/javascript" src="/js/jquery.min.js"></script>
+      <script type="text/javascript" src="/js/bootstrap.min.js"></script>
   </body>
 </html>

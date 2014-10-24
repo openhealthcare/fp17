@@ -1,0 +1,152 @@
+
+
+<div class="col-md-12 fpgreen"
+    <form id="mainform" role="form" action="/new/three" method="POST">
+
+    <fieldset>
+        <legend>Part Five - Treatment Category</legend>
+
+        <table width="100%" border="0" class="checkbox-table">
+            <tr>
+                <td>
+                    <label for="under18">Patient under 18</label>
+                    <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-primary">
+                        <input type="checkbox" name="under18"> Yes
+                      </label>
+                    </div>
+                </td>
+                <td>
+                    <label for="hc2cert">Full remission <br/> HC2 cert</label>
+                    <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-primary">
+                        <input type="checkbox" name="hc2cert"> Yes
+                      </label>
+                    </div>
+                </td>
+                <td>
+                    <label for="h3cert">Partial remission <br/> HC3 cert</label>
+                    <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-primary">
+                        <input type="checkbox" name="h3cert"> Yes
+                      </label>
+                    </div>
+                </td>
+                <td>
+                    <label for="expectant">Expectant mother</label>
+                    <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-primary">
+                        <input type="checkbox" name="expectant"> Yes
+                      </label>
+                    </div>
+                </td>
+                <td>
+                    <label for="nursing">Nursing mother</label>
+                    <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-primary">
+                        <input type="checkbox" name="nursing"> Yes
+                      </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fte">Aged 18 <br/>Full-time <br/>education</label>
+                    <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-primary">
+                        <input type="checkbox" name="fte"> Yes
+                      </label>
+                    </div>
+                </td>
+                <td>
+                    <label for="income_support">Income Support</label>
+                    <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-primary">
+                        <input type="checkbox" name="income_support"> Yes
+                      </label>
+                    </div>
+                </td>
+                <td>
+                    <label for="tax_credit">NHS Tax Credit<br/> Exemption</label>
+                    <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-primary">
+                        <input type="checkbox" name="tax_credit"> Yes
+                      </label>
+                    </div>
+                </td>
+                <td>
+                    <label for="job_seeker">Income base JSA</label>
+                    <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-primary">
+                        <input type="checkbox" name="job_seeker"> Yes
+                      </label>
+                    </div>
+                </td>
+                <td>
+                    <label for="pension_credit">Pension Credit <br/>guarantee</label>
+                    <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-primary">
+                        <input type="checkbox" name="pension_credit"> Yes
+                      </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="prisoner">Prisoner</label>
+                    <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-primary">
+                        <input type="checkbox" name="prisoner"> Yes
+                      </label>
+                    </div>
+                </td>
+                <td>
+                    <label for="esa">Income related ESA</label>
+                    <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-primary">
+                        <input type="checkbox" name="esa"> Yes
+                      </label>
+                    </div>
+                </td>
+                <td colspan="2" class="darker">
+                    <label for="no_evidence">Evidence of Exemption or Remission not seen</label>
+                    <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-primary">
+                        <input type="checkbox" name="no_evidence"> Not seen
+                      </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group">
+                        <label for="charge_collected">Patient charge collected</label>
+                        <input type="text" class="form-control" id="charge_collected">
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+
+        <legend>Part Five(a) - Clinical Data Set</legend>
+
+
+    </fieldset>
+
+
+    <div class="form-group">
+            <button type="submit" class="pull-right  btn btn-primary">
+                Next <i class="glyphicon glyphicon-chevron-right"></i>
+            </button>
+
+            <button type="submit" class="pull-right btn btn-default pad-right">
+                Reset
+            </button>
+
+            <button type="submit" class="pull-right  btn btn-primary pad-right">
+                <i class="glyphicon glyphicon-chevron-left"></i> Back
+            </button>
+
+    </div>
+    <div class="clearfix"></div>
+
+    </form>
+</div>

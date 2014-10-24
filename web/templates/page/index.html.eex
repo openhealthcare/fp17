@@ -8,7 +8,7 @@
 <div class="home-actions col-md-12">
 
   <div class="col-md-6">
-    <a href="" class="btn btn-success btn-lg">Start a new form!</a>
+    <a href="/new/one" class="btn btn-success btn-lg">Start a new form!</a>
   </div>
 
   <div class="col-md-6">

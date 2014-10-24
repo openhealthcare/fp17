@@ -1,0 +1,100 @@
+
+
+<div class="col-md-12 fpgreen"
+    <form id="mainform" role="form" action="/new/one"  method="POST">
+
+    <fieldset>
+        <legend>Part One</legend>
+        <p>
+        Provider name, address and location
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Part Two - Patient Information</legend>
+         <div class="form-group">
+            <label for="surname">Surname</label>
+            <input type="text" class="form-control" id="surname" placeholder="Surname">
+        </div>
+
+        <div class="form-group">
+            <label for="forename">First forename</label>
+            <input type="text" class="form-control" id="forename" placeholder="First forename">
+        </div>
+
+        <div class="form-group">
+            <label for="house_num">House number or name</label>
+            <input type="text" class="form-control" id="house_num" placeholder="House number or name">
+        </div>
+
+        <div class="form-group">
+            <label for="street">Street</label>
+            <input type="text" class="form-control" id="street" placeholder="Street">
+        </div>
+
+        <div class="form-group">
+            <label for="city">City or Town</label>
+            <input type="text" class="form-control" id="city" placeholder="City or Town">
+        </div>
+
+        <div class="form-group">
+            <label for="county">County</label>
+            <input type="text" class="form-control" id="county" placeholder="County">
+        </div>
+
+        <div class="form-group">
+            <label for="postcode">Postcode</label>
+            <input type="text" class="form-control" id="postcode" placeholder="Postcode">
+        </div>
+
+        <div class="form-group">
+            <label for="previous_surname">Previous Surname</label>
+            <input type="text" class="form-control" id="previous_surname" placeholder="Previous Surname  (if changed since last visit)">
+        </div>
+
+        <hr/>
+
+        <div class="row col-sm-12">
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" class="form-control" id="title" placeholder="Title">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <label for="title">Sex</label><br/>
+                <div class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-primary">
+                    <input type="radio" name="sex" value="M"> Male
+                  </label>
+                  <label class="btn btn-primary">
+                    <input type="radio" name="sex" value="F"> Female
+                  </label>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label for="dob">Date of birth</label>
+                    <input type="text" class="form-control" id="dob" placeholder="Date of birth">
+                </div>
+            </div>
+
+        </div>
+
+    </fieldset>
+
+
+    <div class="form-group">
+            <button type="submit" class="pull-right  btn btn-primary">
+                Next <i class="glyphicon glyphicon-chevron-right"></i>
+            </button>
+
+            <button type="reset" class="pull-right btn btn-default pad-right">
+                Reset
+            </button>
+
+    </div>
+    <div class="clearfix"></div>
+
+    </form>
+</div>

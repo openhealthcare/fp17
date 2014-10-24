@@ -1,4 +1,27 @@
 
+
+legend { font-weight: 600;}
+fieldset p { color: #009E91; }
+label, legend, .form-control::-webkit-input-placeholder {
+  color: #009E91;
+}
+
+.checkbox-table td {
+  padding: 6px;
+}
+.checkbox-table label {
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.checkbox-table td.darker {
+  background-color: #61BCB3;
+}
+
+.checkbox-table td.darker label {
+  font-weight: 600;
+}
+
 /* Space out content a bit */
 body {
   padding-top: 20px;

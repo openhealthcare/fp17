@@ -1,0 +1,74 @@
+
+
+<div class="col-md-12 fpgreen"
+    <form id="mainform" role="form" action="/new/two" method="POST">
+
+    <fieldset>
+        <legend>Part Three - Incomplete treatment and treatment dates</legend>
+
+        <div class="row col-sm-12">
+            <div class="col-sm-3">
+                <label for="title">Incomplete treatment</label><br/>
+                <div class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-primary">
+                    <input type="radio" name="sex" value="1"> Band 1
+                  </label>
+                  <label class="btn btn-primary">
+                    <input type="radio" name="sex" value="2"> Band 2
+                  </label>
+                  <label class="btn btn-primary">
+                    <input type="radio" name="sex" value="3"> Band 3
+                  </label>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label for="date_acceptance">Date of acceptance</label>
+                    <input type="text" class="form-control" id="date_acceptance" placeholder="Date of acceptance">
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <label for="completion_same_acceptance">Completion = acceptance date?</label><br/>
+                <div class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-primary">
+                    <input type="radio" name="completion_same_acceptance" value="Y"> Yes
+                  </label>
+                  <label class="btn btn-primary">
+                    <input type="radio" name="completion_same_acceptance" value="N"> No
+                  </label>
+                </div>
+
+            </div>
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label for="date_completion_last">Completion or last visit</label>
+                    <input type="text" class="form-control" id="date_completion_last" placeholder="Completion or last visit">
+                </div>
+            </div>
+        </div>
+
+
+        <legend>Part Four - Exemptions and Remissions</legend>
+
+
+    </fieldset>
+
+
+    <div class="form-group">
+            <button type="submit" class="pull-right  btn btn-primary">
+                Next <i class="glyphicon glyphicon-chevron-right"></i>
+            </button>
+
+            <button type="submit" class="pull-right btn btn-default pad-right">
+                Reset
+            </button>
+
+            <button type="submit" class="pull-right  btn btn-primary pad-right">
+                <i class="glyphicon glyphicon-chevron-left"></i> Back
+            </button>
+
+    </div>
+    <div class="clearfix"></div>
+
+    </form>
+</div>
