@@ -12,45 +12,22 @@
 
     <fieldset>
         <legend>Part Two - Patient Information</legend>
-         <div class="form-group">
-            <label for="surname">Surname</label>
-            <input type="text" class="form-control" id="surname" placeholder="Surname">
-        </div>
 
-        <div class="form-group">
-            <label for="forename">First forename</label>
-            <input type="text" class="form-control" id="forename" placeholder="First forename">
-        </div>
+        <%= safe textfield("Surname", "surname") %>
 
-        <div class="form-group">
-            <label for="house_num">House number or name</label>
-            <input type="text" class="form-control" id="house_num" placeholder="House number or name">
-        </div>
+        <%= safe textfield("First forename", "forname") %>
 
-        <div class="form-group">
-            <label for="street">Street</label>
-            <input type="text" class="form-control" id="street" placeholder="Street">
-        </div>
+        <%= safe textfield("House number or name", "house_number") %>
 
-        <div class="form-group">
-            <label for="city">City or Town</label>
-            <input type="text" class="form-control" id="city" placeholder="City or Town">
-        </div>
+        <%= safe textfield("Street", "street") %>
 
-        <div class="form-group">
-            <label for="county">County</label>
-            <input type="text" class="form-control" id="county" placeholder="County">
-        </div>
+        <%= safe textfield("City or Town", "city") %>
 
-        <div class="form-group">
-            <label for="postcode">Postcode</label>
-            <input type="text" class="form-control" id="postcode" placeholder="Postcode">
-        </div>
+        <%= safe textfield("County", "county") %>
 
-        <div class="form-group">
-            <label for="previous_surname">Previous Surname</label>
-            <input type="text" class="form-control" id="previous_surname" placeholder="Previous Surname  (if changed since last visit)">
-        </div>
+        <%= safe textfield("Postcode", "postcode") %>
+
+        <%= safe textfield("Previous surname", "previous_surname") %>
 
         <hr/>
 
@@ -61,17 +38,12 @@
                     <input type="text" class="form-control" id="title" placeholder="Title">
                 </div>
             </div>
+
+
             <div class="col-sm-4">
-                <label for="title">Sex</label><br/>
-                <div class="btn-group" data-toggle="buttons">
-                  <label class="btn btn-primary">
-                    <input type="radio" name="sex" value="M"> Male
-                  </label>
-                  <label class="btn btn-primary">
-                    <input type="radio" name="sex" value="F"> Female
-                  </label>
-                </div>
+                <%= safe options("Sex", "sex", [["Male", "M"], ["Female", "F"]]) %>
             </div>
+
             <div class="col-sm-3">
                 <div class="form-group">
                     <label for="dob">Date of birth</label>
